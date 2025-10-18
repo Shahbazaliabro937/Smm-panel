@@ -1,0 +1,123 @@
+<div class="main-feature-panel">
+    <div class="info-box">
+        <p class="info-text">
+            🤝 **Invite Karen aur Kamayen:** Affiliates par **10% Commission**!
+        </p>
+        <p class="info-text fund-offer">
+            💰 **Zyada Fund Add Karen:** $100 ya usse zyada add karne par **10% Bonus**!
+        </p>
+    </div>
+
+    <div class="button-container">
+        <a href="#" class="action-button affiliate-btn">
+            <i class="fas fa-user-friends"></i> Affiliate (Invite)
+        </a>
+
+        <a href="#" class="action-button whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> WhatsApp Channel
+        </a>
+
+        <a href="#" class="action-button fund-btn">
+            <i class="fas fa-wallet"></i> Fund Add Karen
+        </a>
+    </div>
+</div>
+
+<style type="text/css">
+    /* Basic Setup (Agar aapke panel me pehle se FONT AWESOME nahi hai, to iski zaroorat padegi) */
+    /* Agar icons (user-friends, whatsapp, wallet) nahi dikhe, to apne <head> tag me yeh line jodein: */
+    /* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> */
+
+
+    .main-feature-panel {
+        font-family: 'Arial', sans-serif; /* Stylish font */
+        background-color: #f8f9fa; /* Light background */
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 20px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    /* --- Info Box Styling --- */
+    .info-box {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #ffffff; /* White box for text */
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .info-text {
+        font-size: 16px;
+        color: #333;
+        margin: 5px 0;
+        font-weight: 500;
+    }
+
+    .fund-offer {
+        color: #007bff; /* Blue for the fund offer */
+        font-weight: bold;
+        border-top: 1px dashed #eee;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+    /* --- Buttons Styling --- */
+    .button-container {
+        display: flex; /* Buttons ko side-by-side rakhega */
+        gap: 15px; /* Buttons ke beech ki jagah */
+        justify-content: center; /* Buttons ko center me rakhega */
+        flex-wrap: wrap; /* Agar screen chhoti ho, to neeche aajaenge */
+    }
+
+    .action-button {
+        text-decoration: none; /* Underline hatana */
+        padding: 12px 25px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex; /* Icon aur text ko align karne ke liye */
+        align-items: center;
+        min-width: 200px; /* Minimum width for uniformity */
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .action-button i {
+        margin-right: 8px; /* Icon aur text ke beech ki jagah */
+    }
+
+    .action-button:hover {
+        transform: translateY(-2px); /* Hover par thoda upar aana */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Affiliate Button Color */
+    .affiliate-btn {
+        background-color: #ffc107; /* Yellow/Gold */
+        color: #333;
+    }
+    .affiliate-btn:hover {
+        background-color: #e0a800;
+    }
+
+    /* WhatsApp Button Color */
+    .whatsapp-btn {
+        background-color: #28a745; /* Green */
+    }
+    .whatsapp-btn:hover {
+        background-color: #1e7e34;
+    }
+
+    /* Add Fund Button Color */
+    .fund-btn {
+        background-color: #007bff; /* Blue */
+    }
+    .fund-btn:hover {
+        background-color: #0056b3;
+    }
+</style>
